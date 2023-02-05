@@ -1,0 +1,35 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: whitesmoke;
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titles {
+  text-align: center;
+}
+
+#canvas {
+  background: white;
+  height: 600px;
+  width: 1200px;
+}
+
+#legend {
+  margin-top: 1rem;
+  height: 160px;
+  width: 250px;
+}
+
+#tooltip {
+  visibility: hidden;
+  display: absolute;
+}
+
+.cell:hover {
+  fill: white;
+}/*# sourceMappingURL=style.css.map */
